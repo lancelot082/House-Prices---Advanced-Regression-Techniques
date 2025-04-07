@@ -18,15 +18,7 @@
 - Преобразование категориальных признаков (Label Encoding, One-Hot Encoding)  
 - Feature engineering  
 - Сравнение нескольких моделей (Blending)
-    def blend_models_predict(X):
-    return ((0.1 * elastic_model_full_data.predict(X)) + \
-            (0.05 * lasso_model_full_data.predict(X)) + \
-            (0.1 * ridge_model_full_data.predict(X)) + \
-            (0.1 * svr_model_full_data.predict(X)) + \
-            (0.1 * gbr_model_full_data.predict(X)) + \
-            (0.15 * xgb_model_full_data.predict(X)) + \
-            (0.1 * lgb_model_full_data.predict(X)) + \
-            (0.3 * stack_gen_model.predict(np.array(X))))  
+![image](https://github.com/user-attachments/assets/fad02009-ba77-4e7a-a98e-093ef49b7cbc)
 
 ## Результаты   
 - Score 0.13111
