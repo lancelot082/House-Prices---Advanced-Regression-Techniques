@@ -1,4 +1,5 @@
 # House Prices - Advanced Regression Techniques
+![image](https://github.com/user-attachments/assets/7a08d27c-cba2-4888-b6b3-8a9fefdba3e7)
 
 
 ## Описание проекта  
